@@ -3430,13 +3430,13 @@ body, html {
   margin: 0;
 }
 .articles-slider .blog__title .blog__btn .blog__left {
-  background: url(../../../assets/img/ButtonLeft.svg) no-repeat;
+  background: url(../../../impro/assets/img/ButtonLeft.svg) no-repeat;
   background-size: contain;
   width: 46px;
   height: 46px;
 }
 .articles-slider .blog__title .blog__btn .blog__right {
-  background: url(../../../assets/img/ButtonRight.svg) no-repeat;
+  background: url(../../../impro/assets/img/ButtonRight.svg) no-repeat;
   background-size: contain;
   width: 46px;
   height: 46px;
