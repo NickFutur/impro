@@ -5814,6 +5814,7 @@ body, html {
 @media (max-width: 550px) {
   .article-text__tags {
     margin-top: 4rem;
+    gap: 30px;
   }
 }
 .article-text__tags span {
