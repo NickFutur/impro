@@ -3555,7 +3555,7 @@ body, html {
 .articles-slider .blog__title .blog__btn .blog__left::after,
 .articles-slider .blog__title .blog__btn .blog__right::after {
   content: "";
-  background-image: url("../../../assets/img/icon/arrow-slider.svg");
+  background-image: url("../../../impro/assets/img/icon/arrow-slider.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 10px;
@@ -6033,19 +6033,19 @@ body, html {
 }
 
 .tg:after {
-  background-image: url("/assets/img/icon/social/tg.svg");
+  background-image: url("/impro/assets/img/icon/social/tg.svg");
 }
 
 .wa:after {
-  background-image: url("/assets/img/icon/social/wa.svg");
+  background-image: url("/impro/assets/img/icon/social/wa.svg");
 }
 
 .vk:after {
-  background-image: url("/assets/img/icon/social/vk.svg");
+  background-image: url("/impro/assets/img/icon/social/vk.svg");
 }
 
 .copy:after {
-  background-image: url("/assets/img/icon/social/copy.svg");
+  background-image: url("/impro/assets/img/icon/social/copy.svg");
 }
 
 .project__card-item, .project .about-module__button, .project .about-project__button {
