@@ -21,7 +21,7 @@
     <div class="header-container container">
         <div class="header-left">
             <div class="header-logo">
-                <img src="assets/img/logo.svg" alt="logo">
+                <img src="assets/img/logo-new.svg" alt="logo">
             </div>
             <div class="header-menu-wrap">
                 <div class="header-menu">
@@ -248,10 +248,12 @@
 </section>
 <section class="contacts-map">
     <div>
-        <img src="assets/img/contacts/map-2x-new.png" alt="" class="map" />
+        <img src="assets/img/contacts/map-2x-new.png" alt="сотрудники и карта" class="map">
     </div>
 </section>
-
+<section class="contacts-map">
+    <div class="contacts-map__container" id="contacts-map" data-center="30.315868,59.939095" data-zoom="15"></div>
+</section>
 
         </main>
 
@@ -400,7 +402,8 @@
                     </div>
                     <div class="footer-form-content">
                         <input type="text" name="name" placeholder="Ваше имя" class="footer-form-input">
-                        <input type="text" name="phone" placeholder="+ 7 (999) 999-99-99" class="footer-form-input">
+                        <input type="text" name="phone" placeholder="+ 7 (999) 999-99-99" class="footer-form-input"
+                            style="border-bottom: none;">
                         <div class="footer-form-select">
                             <div class="footer-form-select-head">Где удобно связаться?</div>
                             <div class="footer-form-select-options">
@@ -444,7 +447,7 @@
                             </span>
                         </button>
                         <div class="footer-form-policy">
-                            <input type="checkbox" checked name="policy" id="policy" class="visually-hidden">
+                            <input type="checkbox" required name="policy" id="policy" class="visually-hidden">
                             <label for="policy" class="footer-form-policy-label">
                                 <span class="footer-form-policy-span">
                                     Я ознакомлен и согласен с <a href="">политикой обработки персональных данных</a>
@@ -498,7 +501,6 @@
         </div>
     </div>
 </footer>
-
         <div class="popup" id="popup-team">
     <div class="popup__wrapper">
         <div class="popup__form">
